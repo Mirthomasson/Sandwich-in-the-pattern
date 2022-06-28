@@ -98,10 +98,9 @@ video {
   .home-text {
     color: whitesmoke;
     text-align: center;
-    padding: 5em 1em;
+    padding: 25em 1em;
     line-height: 4em;
     background-color: rgb(34, 34, 34);
-    height: 100vh;
   }
 
   .patreon {
@@ -117,7 +116,7 @@ video {
 
   /* ABOUT */
   #about-page {
-    background-color: rgb(33, 55, 55);
+    background-color: rgb(34, 34, 34);
   }
 
   .about-text {
@@ -171,6 +170,7 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: .5em;
 }
 
 input[type=submit]:hover {
