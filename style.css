@@ -61,7 +61,7 @@ video {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
-    color: tomato;
+    color: #DD6F58;
     transition: ease .5s;
   }
   
@@ -106,7 +106,7 @@ video {
 
   .patreon {
       text-decoration: none;
-      color: tomato;
+      color: #DD6F58;
       transition: ease .2s;
   }
 
@@ -117,7 +117,7 @@ video {
 
   /* ABOUT */
   #about-page {
-    background-color: rgb(33, 55, 55);
+    background-color: #DD6F58;
   }
 
   .about-text {
@@ -130,7 +130,7 @@ video {
 
   .contact-link {
     text-decoration: none;
-    color: tomato;
+    color: #DD6F58;
     transition: ease .2s;
   }
 
