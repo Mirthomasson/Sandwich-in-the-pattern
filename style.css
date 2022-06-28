@@ -117,7 +117,7 @@ video {
 
   /* ABOUT */
   #about-page {
-    background-color: darkslategrey;
+    background-color: rgb(33, 55, 55);
   }
 
   .about-text {
@@ -205,4 +205,8 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+}
+
+.thank-you {
+  color: whitesmoke;
 }
