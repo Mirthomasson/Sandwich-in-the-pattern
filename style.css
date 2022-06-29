@@ -116,6 +116,7 @@ video {
     justify-self: center;
     margin-top: -10em;
     height: 18em;
+    left: .4em;
   }
 
   .home-header {
