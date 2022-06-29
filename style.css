@@ -249,6 +249,11 @@ input[type=submit]:hover {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
+    margin: ;
+  }
+
+  .container {
+    padding: 10em 2em;
   }
 
   .social-icons {
