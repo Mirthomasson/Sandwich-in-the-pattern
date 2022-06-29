@@ -117,6 +117,8 @@ video {
     margin-top: -10em;
     height: 17em;
     padding: 0;
+    left: -1em;
+    position: relative;
   }
 
   .home-header {
