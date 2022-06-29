@@ -21,15 +21,18 @@
 }
 
 #logo {
+    display: flex;
+    float: right;
+    top: -15em;
+    left: -2em;
     height: 12em;
     z-index: 1;
-    position: absolute;
-    top: 45em;
-    left: 85em;
+    position: relative;
 }
 
 video {
   height: 100vh;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -81,11 +84,12 @@ video {
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    /* .topnav.responsive {position: relative;} */
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;
       top: .85em;
+      padding: 0;
     }
     
     .topnav.responsive a {
@@ -93,7 +97,35 @@ video {
       display: block;
       text-align: center;
     }
+
   }
+
+@media screen and (min-width: 375px) and (max-width: 1200px) {
+  video {
+    display: none;
+  }
+
+  #logo {
+    margin: 0 auto;
+    float: none;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: -20em;
+    height: 20em;
+    left: 2px;
+  }
+
+  .home-header {
+    background-image: url(./images/sammy-pattern\ .png);
+    background-size: contain;
+    background-color: #333;
+  }
+
+  .home-text {
+    margin-top: -10em;
+  }
+}
 
   .home-text {
     color: whitesmoke;
@@ -124,7 +156,6 @@ video {
     color: whitesmoke;
     margin: 10em 15em;
     line-height: 4em;
-
   }
 
   .contact-link {
@@ -141,6 +172,18 @@ video {
   .giphy-embed {
     border-radius: 1em;
     margin-top: 4em;
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 750px) {
+    .about-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1em;
+      padding: 15em 2em;
+      margin: 0 auto;
+  }
   }
 
   /* CONTACT */
@@ -205,6 +248,12 @@ input[type=submit]:hover {
     width: 100%;
     margin-top: 0;
   }
+
+  .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* THANK YOU PAGE */
@@ -247,4 +296,15 @@ color: white;
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+@media screen and (min-width: 375px) and (max-width: 720px) {
+  .thank-you {
+    position: relative;
+    top: 12em;
+    margin: 1em;
+    padding: 1em;
+    font-size: 1em;
+    z-index: -1;
+  }
 }
