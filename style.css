@@ -100,6 +100,10 @@ video {
   }
 
 @media screen and (min-width: 375px) and (max-width: 1200px) {
+ html {
+  overflow-x: hidden;
+ }
+ 
   video {
     display: none;
   }
@@ -111,8 +115,7 @@ video {
     align-self: center;
     justify-self: center;
     margin-top: -10em;
-    height: 20em;
-    left: -5px;
+    height: 18em;
   }
 
   .home-header {
