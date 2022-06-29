@@ -115,7 +115,8 @@ video {
     align-self: center;
     justify-self: center;
     margin-top: -10em;
-    height: 18em;
+    height: 17em;
+    padding: 0;
   }
 
   .home-header {
