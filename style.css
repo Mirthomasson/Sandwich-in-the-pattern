@@ -210,5 +210,12 @@ input[type=submit]:hover {
 /* THANK YOU PAGE */
 
 .thank-you {
-  color: whitesmoke;
+  text-align: center;
+  margin: 10em;
+  color: tomato;
+  background-color: white;
+}
+
+.ty-sandwich {
+  align-items: center;
 }
