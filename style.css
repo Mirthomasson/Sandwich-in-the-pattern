@@ -114,7 +114,7 @@ video {
     display: flex;
     align-self: center;
     justify-self: center;
-    margin-top: -10em;
+    margin-top: -14em;
     height: 17em;
     padding: 0;
     left: -.5em;
@@ -232,7 +232,7 @@ input[type=submit]:hover {
   padding: 10em 8em;
 }
 
-/* Create two columns that float next to eachother */
+/* Create two columns that float next to each other */
 .column {
   float: left;
   width: 50%;
