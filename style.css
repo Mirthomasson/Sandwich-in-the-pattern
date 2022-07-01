@@ -9,7 +9,6 @@
 .home-header {
     position: relative;
     text-align: center;
-    height: 100vh;
 }
 
 .about-header {
@@ -20,7 +19,13 @@
   padding: 0;
 }
 
-#logo {
+.video {
+  height: 100vh;
+  width: 100%;
+  margin-bottom: -1em;
+}
+
+/* #logo {
     display: flex;
     float: right;
     top: -15em;
@@ -28,17 +33,8 @@
     height: 12em;
     z-index: 1;
     position: relative;
-}
+} */
 
-video {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #333;
-  z-index: -1;
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
