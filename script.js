@@ -8,7 +8,5 @@ function myFunction() {
     }
   }
 
-  var vid = document.getElementById("myVideo");
-vid.autoplay = true;
-vid.load();
+  document.querySelector('#video').autoplay = false;
 
