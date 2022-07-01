@@ -8,12 +8,7 @@ function myFunction() {
     }
   }
 
-  window.addEventListener('load', async () => {
-    let video = document.querySelector('video[muted][autoplay]');
-    try {
-      await video.play();
-    } catch (err) {
-      video.controls = true;
-    }
-  });
+  var vid = document.getElementById("myVideo");
+vid.autoplay = true;
+vid.load();
 
