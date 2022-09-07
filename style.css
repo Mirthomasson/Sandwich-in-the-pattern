@@ -75,7 +75,11 @@
     .topnav a {display: none;}
     .topnav a.icon {
       align-items: center;
-      display: block;
+      display: inline;
+    }
+
+    .topnav {
+      padding: 0;
     }
   }
   
@@ -84,7 +88,7 @@
     .topnav.responsive a.icon {
       position: absolute;
       right: 0;
-      top: .85em;
+      top: -.35em;
       padding: 0;
     }
     
@@ -93,7 +97,6 @@
       display: block;
       text-align: center;
     }
-
   }
 
 @media screen and (min-width: 375px) and (max-width: 1200px) {
